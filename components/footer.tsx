@@ -3,9 +3,9 @@ import { Home, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } fro
 const footerLinks = {
   company: [
     { name: "About Us", href: "#" },
-    { name: "Careers", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Blog", href: "#" },
+    { name: "Contact Us", href: "#" },
+    { name: "NA", href: "#" },
+    { name: "NA", href: "#" },
   ],
   support: [
     { name: "Help Center", href: "#" },
@@ -28,10 +28,10 @@ const footerLinks = {
 }
 
 const socialLinks = [
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Facebook, href: "https://www.facebook.com/", label: "Facebook" },
+  { icon: Twitter, href: "https://x.com/", label: "Twitter" },
+  { icon: Instagram, href: "https://instagram.com/pgspot.in", label: "Instagram" },
+  { icon: Linkedin, href: "https://linkedin.com/", label: "LinkedIn" },
 ]
 
 export default function Footer() {
