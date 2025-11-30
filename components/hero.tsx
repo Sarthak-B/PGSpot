@@ -11,17 +11,26 @@ export default function Hero() {
   const [budget, setBudget] = useState("")
   const [roomType, setRoomType] = useState("")
 
-  const colleges = [
-    "IIT Delhi",
-    "Delhi University",
-    "BITS Pilani",
-    "VIT Vellore",
-    "KIIT Bhubaneswar",
-    "SRM Chennai",
-    "Manipal University",
-    "NMIMS Mumbai",
-  ]
-
+const colleges = [
+  "Tula's Institute",
+  "University of Petroleum and Energy Studies (UPES)",
+  "Graphic Era University",
+  "DIT University",
+  "Uttaranchal University",
+  "IMS Unison University",
+  "Doon University",
+  "BFIT Group of Institutions",
+  "Himalayan Institute of Technology",
+  "Dev Bhoomi Uttarakhand University",
+  "D.A.V. (P.G.) College, Dehradun",
+  "DBS (P.G.) College, Dehradun",
+  "MKP P.G. College, Dehradun",
+  "Swami Rama Himalayan University",
+  "The ICFAI University, Dehradun",
+  "Sardar Bhagwan Singh University, Dehradun",
+  "Himgiri Zee University, Dehradun",
+  "Shivalik College of Engineering, Dehradun"
+];
   const roomTypes = ["Single Room", "Double Sharing", "Triple Sharing", "Any"]
 
   const handleSearch = () => {
@@ -129,7 +138,7 @@ export default function Hero() {
                 ))}
               </div>
               <span className="text-sm text-muted-foreground">
-                <span className="font-semibold text-foreground">5,000+</span> students trust us
+                <span className="font-semibold text-foreground"></span>
               </span>
             </div>
           </div>

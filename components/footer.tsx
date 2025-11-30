@@ -127,7 +127,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:items-center gap-6 py-8 border-t border-background/20">
           <div className="flex items-center gap-2 text-background/70 text-sm">
             <Mail className="w-4 h-4" />
-            <span>support@PGSpot.in</span>
+            <span>support@pgSpot.in</span>
           </div>
           <div className="flex items-center gap-2 text-background/70 text-sm">
             <Phone className="w-4 h-4" />
@@ -135,7 +135,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-2 text-background/70 text-sm">
             <MapPin className="w-4 h-4" />
-            <span>Bangalore, India</span>
+            <span>Uttarakhand, India</span>
           </div>
         </div>
 

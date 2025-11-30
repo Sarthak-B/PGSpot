@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>PGSpot</h3>
+            <h3>CampusStay</h3>
             <p>Making student accommodation simple, transparent, and accessible.</p>
             <div className="social-links">
               <a href="#" className="social-link">
@@ -70,14 +70,14 @@ const Footer = () => {
                 <a href="#">Contact</a>
               </li>
               <li>
-                <a href="#">Careers</a>
+                <a href="#">Contact US</a>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2025 PGSpot. All rights reserved.</p>
+          <p>&copy; 2025 CampusStay. All rights reserved.</p>
           <div className="footer-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
