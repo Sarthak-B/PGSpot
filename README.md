@@ -54,7 +54,7 @@ Make sure you have installed:
 	•	npm
 	•	Git
 	•	VS Code
-
+```
 Do all this in your Terminal:
 
 1️⃣ Verify them:
@@ -73,3 +73,4 @@ npm install
 
 4️⃣ Run the Development Server
 npm run dev
+```
